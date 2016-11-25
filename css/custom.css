@@ -1,0 +1,252 @@
+/* Template Name: Cyprass Responsive HTML5/CSS3 Template
+Author:Esrat
+Author URI:
+Description:Cyprass Responsive HTML5/CSS3 Template.
+Version:1.1 */
+
+
+/* Table of Content
+==================================================
+1.  Global Styles
+2.  Header
+3.  Slider
+4.  Services
+5.  Portfolio
+6.  About Us
+7.  Team
+8.  Pricing
+9.  Counter
+10. Testimonial
+11. Clients
+12. Contact
+13. Footer
+14. Subpages
+15. Blog
+16. Responsive
+
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700);
+
+/* ----------------------------------------------------------------------------------- */
+/* CSS Reset & Clear
+/*----------------------------------------------------------------------------------- */
+ 
+
+
+/* Testimonial PArt
+============================================ */
+#testimonial{ visibility: visible;}
+.testimonial-slide .testimonial-text {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 800px;
+    padding-top: 20px;
+    display: inline-block;
+    position: relative;
+    color: #636363;
+}
+.testimonial-slide .testimonial-text:before {
+    content: "";
+    font-family: FontAwesome;
+    padding-right: 10px;
+    font-size: 25px;
+}
+.testimonial-slide .testimonial-text:after {
+    content: "";
+    font-family: FontAwesome;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.testimonial-slide .testimonial-content h3.name {
+    font-size: 26px;
+    font-weight: 700;
+}
+.testimonial-slide .testimonial-content h3.name span {
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    color: #555;
+    text-transform: capitalize;
+}
+.testimonial-content h3.name span:after {
+    content: "";
+    width: 10%;
+    background: red;
+    border-bottom: 1px solid #CCC;
+    height: 1px;
+    position: absolute;
+    left: 45%;
+    
+}
+.testimonial-slide .testimonial-thumb img {
+    width: 152px;
+    height: 152px;
+    border: 5px solid rgba(0, 0, 0, 0.09);
+}
+
+.testimonial-slide .owl-buttons{
+    display: none;
+}
+.cyprass-carousel-controller {
+    cursor: pointer;
+    position: relative;
+    margin: 20px 0px;
+    left: 46%;
+}
+.customNavigation .fa-chevron-left, .customNavigation .fa-chevron-right{ 
+    padding: 15px; 
+    width: 50px; 
+    height: 50px; 
+    border-radius:50%; 
+    font-size: 20px;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.customNavigation .fa-chevron-right{
+    padding-left: 18px!important;
+}
+.customNavigation .owl-prev { position: absolute; }
+
+
+
+/* Client Area
+========================================== */
+#client {
+    padding: 30px 0px;
+    background: #f2f2f2;
+}
+#client-carousel {
+    padding: 30px 0px;  
+}
+
+#client h3.feature_title {
+    color: #fff !important;
+}
+.client-carousel .owl-controls {
+    margin: 70px 0px;
+    display: none !important;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next,.owl-theme .owl-controls .owl-buttons .owl-prev {
+    font-size: 25px;
+    padding-left: 7px;
+    padding-top: 13px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+    padding-left: 0px!important;
+}
+.client_logo{ 
+    padding: 30px 40px;
+}
+.client_logo img{ 
+   width: 150px;
+    height: 50px;
+}
+
+/*Location
+============================*/
+#location{ }
+.map {
+    height: 450px;
+    z-index: 1;
+    width: 100%;
+}
+/* Contact Form
+==============================================*/
+#contact{
+    background: #fff;
+}
+#contact .feature_title{}
+#contact .divider{color: #fff!important;}
+
+.left_contact{
+    color: #E7E7E7;
+    max-width:850px; 
+}
+
+.form-control{
+    box-shadow:none!important;
+}
+.form{    
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+    color: #7F7F7F;
+    padding: 15px 15px 12px;
+    border-radius:0px;
+    text-transform: capitalize!important;
+    padding-left: 70px;
+}
+ .right textarea{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid#EEE;
+} 
+ .right .form-control{
+    box-shadow: none!important;
+ }
+ .contact_full .btn-main{
+    margin-top: 20px;
+ }
+/*/right*/
+
+.left h4,.right h4{
+    margin-bottom: 20px;
+}
+.contact_txt li{ 
+   display: block;
+   padding-bottom: 10px;
+   border-bottom: 1px dotted#555;
+   margin-bottom: 5px;
+}
+.contact_txt li:last-child{ 
+   border-bottom: 0px ;
+}
+.contact_txt i{
+    float: left;
+    color: #555;
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+}
+.contact_txt li p{
+    color: #555;
+}
+.social-contact li i{
+    color: #555;
+    width: 30px;
+    height: 30px;
+    padding: 5px 0px 5px 0px;
+    border: 1px solid #555;
+    border-radius: 2px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.form-icon {
+    position: absolute;
+    right: 0px;
+    color: #DDD;
+    top: 10px;
+}
+.form-level{
+    position: relative;
+}
+.form-level input{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #EEE;
+    margin-bottom: 8px;
+}
+.form-level  span {
+    width: 50px;
+    font-size: 20px;
+    padding-left: 17px;
+    height: 47px;
+    position: absolute;
+    color: #888;
+}

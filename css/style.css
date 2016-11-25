@@ -1,0 +1,21 @@
+
+/* home guide */
+.home-guide-container {
+	position: relative;
+}
+.home-guide-container div.guide-subtitle-container {
+	position: absolute;
+	top: 125px;
+	left: -10px;
+}
+.home-guide-container ul.guide-subtitle {
+	text-align: center;
+}
+.home-guide-container ul.guide-subtitle li {
+	display: inline-block;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #828282;
+	width: 200px;
+}
