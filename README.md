@@ -1,25 +1,18 @@
-# KamuKenapa.id (past: Here To Help)
+# [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
 
-Kamu Kenapa is a website that connects anyone who has mental disorder (or want to know more about what's happening to them) with conselours and psychiatrist around the country via email / phone call.
+[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
 
-## Built Using
+## Getting Started
 
-PHP 5.6.10
-PHP Mailer
-Datatables JQuery Plugin
-Bootstrap CSS Framework
+To use this theme, choose one of the following options to get started:
+* Download the latest release on Start Bootstrap
+* Fork this repository on GitHub
 
 ## Bugs and Issues
 
-The php mailer failed to sent mail if run on the web. If launched on Localhost, it would work just fine.
+Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
 
 ## Creator
-
-Nurhadiyati, Gunadarma University, Faculty of Computer Science and Information Technology. 
-* https://instgram.com/dxtx_
-* https://github.com/srugova
-
-## Bootstrap
 
 Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
 
