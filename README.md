@@ -1,4 +1,4 @@
-# KamuKenapa.id
+# KamuKenapa.id (past: Here To Help)
 
 Kamu Kenapa is a website that connects anyone who has mental disorder (or want to know more about what's happening to them) with conselours and psychiatrist around the country via email / phone call.
 
