@@ -1,6 +1,6 @@
-# Here To Help (http://heretohelp.tk/) 
+# KamuKenapa.id
 
-Here To Help is a website that connects anyone who has mental disorder (or want to know more about what's happening to them) with conselours and psychiatrist around the country via email / phone call.
+Kamu Kenapa is a website that connects anyone who has mental disorder (or want to know more about what's happening to them) with conselours and psychiatrist around the country via email / phone call.
 
 ## Built Using
 
@@ -29,6 +29,5 @@ Start Bootstrap was created by and is maintained by **David Miller**, Managing P
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 ## Copyright and License
-It includes code from foobaz, which is licensed under the MIT license:
 
 Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
